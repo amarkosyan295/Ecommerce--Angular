@@ -1,0 +1,43 @@
+<h1 class="heading">{{DelMessage}}</h1>
+<section>
+  <div class="sec-wrap">
+    <div class="box" *ngFor="let item of ProductList">
+      <img src="{{item.image}}" alt="">
+      <h1>{{item.Name}}</h1>
+      <h2>{{item.Price}} RS</h2>
+      <h3>{{item.Color}}</h3>
+      <p>{{item.Category}}</p>
+      <p>{{item.productDescription}}</p>
+      <button id="del" (click)="deleteProduct(item.id)">Delete Product</button>
+      <button routerLink="/seller-update-product/{{item.id}}" class="btn">Update Product</button>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <div *ngFor="let a of ProductList">
+    <p>{{a.Name}}</p>
+    <p>{{a.Price}}</p>
+    <p>{{a.Color}}</p>
+    <p>{{a.Category}}</p>
+    <p>{{a.productDescription}}</p>
+</div> -->

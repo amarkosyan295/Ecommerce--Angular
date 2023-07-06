@@ -1,0 +1,23 @@
+<section>
+    <div class="wrapper">
+        <form #userForm="ngForm" (ngSubmit)="Signup(userForm.value)" *ngIf="LogginSignupToggle">
+            <h1>User Sign-up</h1>
+            <input type="text" ngModel name="name" placeholder="Enter User Name" required>
+            <input type="email" ngModel name="email" placeholder="Enter User Email" required>
+            <input type="password" ngModel name="password" placeholder="Enter User Password" required>
+            <button type="submit">Sign-up</button>
+            <a (click)="SignupToggle()">Already has an account? Login Here</a>
+        </form>
+
+        <form #userFormlogin="ngForm" (ngSubmit)="Login(userFormlogin.value)" *ngIf="!LogginSignupToggle">
+            <h1>User Login</h1>
+            <h6 class="err">{{isUserValidAuth}}</h6>
+            <input type="email" ngModel name="email" placeholder="Enter User Email" #email="ngModel" required email>
+            <span *ngIf="email.invalid && email.touched">Enter Correct and Valid Email</span>
+            <input type="password" ngModel name="password" placeholder="Enter User Password" #password="ngModel" required password minlength="4" maxlength="10">
+            <span *ngIf="password.invalid && password.touched">Enter Correct and Valid Password</span>
+            <button type="submit" [disabled]="userFormlogin.invalid">Login</button>
+            <a (click)="LoginToggle()">Create New Account</a>
+        </form>
+    </div>
+</section>

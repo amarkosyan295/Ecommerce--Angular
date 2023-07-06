@@ -1,0 +1,178 @@
+{
+  "seller": [
+    {
+      "name": "Zain Ajaz",
+      "email": "Zain@gmail.com",
+      "password": "Growthmate123er",
+      "id": 1
+    },
+    {
+      "name": "aun",
+      "email": "aaun0019@gmail.com",
+      "password": "sdaf",
+      "id": 2
+    },
+    {
+      "name": "Temba",
+      "email": "Temba@gmail.com",
+      "password": "123",
+      "id": 3
+    },
+    {
+      "name": "Ronaldo",
+      "email": "Aun@gmail.com",
+      "password": "12424",
+      "id": 4
+    },
+    {
+      "name": "Ronaldo",
+      "email": "samad.ilyas@gmail.com",
+      "password": "ascdfvq1",
+      "id": 5
+    },
+    {
+      "name": "Bukhari",
+      "email": "bukhari@gmail.com",
+      "password": "123",
+      "id": 6
+    },
+    {
+      "name": "Samad ilyas",
+      "email": "samad@gmail.com",
+      "password": "123",
+      "id": 7
+    },
+    {
+      "name": "abc",
+      "email": "abc@test.com",
+      "password": "123",
+      "id": 8
+    },
+    {
+      "name": "Ahmed",
+      "email": "Ahmed@gmail.com",
+      "password": "123",
+      "id": 9
+    },
+    {
+      "name": "Nisar",
+      "email": "nisar@gmail.com",
+      "password": "123",
+      "id": 10
+    }
+  ],
+  "products": [
+    {
+      "Name": "Air Jordan 5",
+      "Price": "67000",
+      "Color": "Blue Markerd",
+      "Category": "Shoes",
+      "image": "https://images.pexels.com/photos/10853637/pexels-photo-10853637.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "productDescription": "A floral ambery fragrance that embraces the paradoxes of iconic ingredients to reveal new scented sensations. Reinventing freshness with the first Neroli bud extraction for Prada, to capture the flower’s",
+      "id": 2
+    },
+    {
+      "Name": "airbuds",
+      "Price": "3999",
+      "Color": "white",
+      "Category": "Headsets",
+      "image": "https://images.pexels.com/photos/3780681/pexels-photo-3780681.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "productDescription": "A floral ambery fragrance that embraces the paradoxes of iconic ingredients to reveal new scented sensations. Reinventing freshness with the first Neroli bud extraction for Prada, to capture the flower’s",
+      "id": 3
+    },
+    {
+      "Name": "Prada",
+      "Price": "5999",
+      "Color": "Silver",
+      "Category": "Perfume",
+      "image": "https://images.pexels.com/photos/7453323/pexels-photo-7453323.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "productDescription": "A floral ambery fragrance that embraces the paradoxes of iconic ingredients to reveal new scented sensations. Reinventing freshness with the first Neroli bud extraction for Prada, to capture the flower’s ",
+      "id": 4
+    },
+    {
+      "Name": "Samsung S7 Edge",
+      "Price": "17500",
+      "Color": "Flora Grey",
+      "Category": "Mobile",
+      "image": "https://images.pexels.com/photos/47261/pexels-photo-47261.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "productDescription": "A floral ambery fragrance that embraces the paradoxes of iconic ingredients to reveal new scented sensations. Reinventing freshness with the first Neroli bud extraction for Prada, to capture the flower’s",
+      "id": 5
+    },
+    {
+      "Name": "Hp Probook Core i7",
+      "Color": "Red",
+      "Category": "Laptop",
+      "image": "https://images.pexels.com/photos/13823992/pexels-photo-13823992.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "productDescription": "A floral ambery fragrance that embraces the paradoxes of iconic ingredients to reveal new scented sensations. Reinventing freshness with the first Neroli bud extraction for Prada, to capture the flower’s",
+      "id": 6
+    },
+    {
+      "Name": "Iphone 12Pro Max",
+      "Price": "124566",
+      "Color": "white",
+      "Category": "Mobile",
+      "image": "https://images.pexels.com/photos/13570143/pexels-photo-13570143.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "productDescription": "A floral ambery fragrance that embraces the paradoxes of iconic ingredients to reveal new scented sensations. Reinventing freshness with the first Neroli bud extraction for Prada, to capture the flower’s",
+      "id": 7
+    },
+    {
+      "Name": "Armani Shirt",
+      "Price": "5999",
+      "Color": "black and white",
+      "Category": "Clothes",
+      "image": "https://images.pexels.com/photos/14897074/pexels-photo-14897074.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "productDescription": "A floral ambery fragrance that embraces the paradoxes of iconic ingredients to reveal new scented sensations. Reinventing freshness with the first Neroli bud extraction for Prada, to capture the flower’s",
+      "id": 8
+    }
+  ],
+  "user": [
+    {
+      "name": "Aun",
+      "email": "aaun00191@gmail.com",
+      "password": "grtee$$$_1",
+      "id": 1
+    },
+    {
+      "name": "Ghaffar",
+      "email": "ghaffar@gmail.com",
+      "password": "123",
+      "id": 2
+    },
+    {
+      "name": "Haris",
+      "email": "haris@gmail.com",
+      "password": "123",
+      "id": 4
+    },
+    {
+      "name": "Ronaldo",
+      "email": "aaun0019@gmail.com",
+      "password": "123",
+      "id": 5
+    },
+    {
+      "name": "Ronaldo",
+      "email": "aaun0019@gmail.com",
+      "password": "123",
+      "id": 6
+    },
+    {
+      "name": "Aun",
+      "email": "aaun0019@gmail.com",
+      "password": "sdaf",
+      "id": 7
+    },
+    {
+      "name": "aun",
+      "email": "aaun0019@gmail.com",
+      "password": "sdaf",
+      "id": 8
+    },
+    {
+      "name": "Shahid Anwar",
+      "email": "Shahid@gmail.com",
+      "password": "sdaf",
+      "id": 9
+    }
+  ]
+}

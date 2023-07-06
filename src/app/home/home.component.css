@@ -1,0 +1,56 @@
+.contanier{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper{
+    width: 1300px;
+}
+h1{
+    margin-top: 50px;
+}
+
+h4{
+    margin-top: 10px;
+}
+
+.d{
+    display: flex;
+    gap: 35px;
+    margin-top: 30px;
+    flex-wrap: wrap;
+}
+
+.box{
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    padding: 30px;
+    width: 410px;
+}
+button{
+    width: 100%;
+    border: none;
+}
+
+img{
+    height: 255px;
+    width: 100%;
+    object-fit: cover;
+    padding-bottom: 10px;
+}
+
+#imgg{
+    height: 650px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.carousel-caption{
+    background-color: rgba(0, 0, 0, 0.595);
+    padding: 60px;
+    border-radius: 20px 0px 20px 0px;
+}
+
+.carousel-indicators [data-bs-target] {
+    display: none !important;
+}

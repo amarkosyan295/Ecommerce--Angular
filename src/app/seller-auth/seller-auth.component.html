@@ -1,0 +1,32 @@
+<div class="container">
+    
+    <!-- seller sign in -->
+
+    <form *ngIf="!islogin" #sellerSignin="ngForm" (ngSubmit)="sellerSignIn(sellerSignin.value)">
+        <h1>Seller Sign In</h1>
+        <label for="name">Enter Name</label>
+        <input type="text" name="name" ngModel placeholder="Enter Your Name">
+        <label for="email">Enter Email</label>
+        <input type="email" name="email" ngModel placeholder="Enter Your Email">
+        <label for="password">Enter Password</label>
+        <input type="password" name="password" ngModel placeholder="Enter Your Password">
+        <button type="submit">SIGN IN</button>
+        <a (click)="openLogin()">Already Have an Account? Login Here</a>
+    </form>
+
+    <!-- seller login -->
+
+    <form *ngIf="islogin" #sellerlogin="ngForm" (ngSubmit)="sellerLogIn(sellerlogin.value)">
+        <h1>Seller Log In</h1>
+        <h4>{{loginError}}</h4>
+        <label for="email">Enter Email</label>
+        <input type="email" name="email" ngModel placeholder="Enter Your Email" #email="ngModel" required email>
+        <span *ngIf="email.invalid && email.touched">Enter Valid Email</span>
+        <label for="password">Enter Password</label>
+        <input type="password" name="password" ngModel placeholder="Enter Your Password" #password="ngModel" required password minlength="4" maxlength="10">
+        <span *ngIf="password.invalid && password.touched">Enter Correct And Valid Password</span>
+        <button type="submit" [disabled]="sellerlogin.invalid">LOG IN</button>
+        <a (click)="openSignup()">Sign up here</a>
+    </form>
+
+</div>

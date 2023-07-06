@@ -1,0 +1,37 @@
+form {
+  display: flex;
+  flex-direction: column;
+  width: 600px;
+  padding: 60px;
+  box-shadow: rgba(69, 155, 252, 0.1) 0px 4px 12px;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+}
+
+input {
+  height: 35px;
+  margin-top: 10px;
+  padding-left: 10px;
+}
+
+textarea {
+  margin-top: 10px;
+  height: 150px;
+  padding: 10px 0px 0px 10px;
+}
+button {
+  height: 35px;
+  border: none;
+  cursor: pointer;
+}
+
+span {
+  color: green;
+  font-weight: bolder;
+}

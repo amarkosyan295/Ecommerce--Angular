@@ -1,0 +1,21 @@
+<div *ngIf="prodDetails" class="wrap">
+  <div class="card">
+    <div class="im">
+      <img src="{{ prodDetails.image }}" alt="" />
+    </div>
+    <div class="con">
+      <h1 class="deti">{{ prodDetails.Name }}</h1>
+      <h3 class="deti">{{ prodDetails.Price }} RS</h3>
+      <h5 class="deti">{{ prodDetails.Color }}</h5>
+      <p class="deti">{{ prodDetails.productDescription }}</p>
+      <h1 class="deti">{{ prodDetails.Category }}</h1>
+      <button (click)="AddToCart()">ADD TO CART</button>
+      <button (click)="removeFromCart()" class="remove">Remove From Cart</button>
+      <div class="quantity">
+        <button class="qbtn" (click)="handleQuantity('minus')">-</button>
+        <p>{{prodQuantity}}</p>
+        <button class="qbtn" (click)="handleQuantity('plus')">+</button>
+      </div>
+    </div>
+  </div>
+</div>
